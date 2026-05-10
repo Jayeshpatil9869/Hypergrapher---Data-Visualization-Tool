@@ -61,3 +61,21 @@ The data visualization tool built can be used to generate the following types of
 - Pie Graph
 - Doughnut Graph
 ![image](https://github.com/Abhirambs-08/HYPERGRAPHER-A-Data-Visualization-Tool-Java/assets/119886477/7dd1cfe5-6105-4fb7-a9ee-b9902e4cb56d)
+
+
+
+1. Run the Spring Boot Backend
+Navigate to the root directory of the project and run:
+
+powershell
+cd hypergrapher-backend
+$env:JAVA_HOME = "C:\Users\Asus\Downloads\HYPERGRAPHER-A-Data-Visualization-Tool-Java-main\tools\jdk-new\jdk-17.0.10+7"
+$env:Path = "$env:JAVA_HOME\bin;$env:Path"
+..\tools\apache-maven-3.9.6\bin\mvn.cmd spring-boot:run
+2. Run the React Frontend
+Navigate to the root directory of the project and run:
+
+powershell
+cd hypergrapher-frontend
+npm run dev
+
